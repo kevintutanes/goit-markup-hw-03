@@ -1,0 +1,238 @@
+:root {
+    --iris: #4d5ae5;
+    --navyblue: #2e2f42;
+    --ocean: #404bbf;
+    --white: #fff;
+    --slate: #434455;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+  }
+
+ body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  }
+
+.logo {
+ text-decoration: none;
+ font-family: Raleway, sans-serif;
+ font-size: 18px;
+ font-weight: 800;
+ line-height: 21px;
+ letter-spacing: 0.54px;
+ text-transform: uppercase;
+}
+
+.logo-web {
+  color: var(--iris, #4d5ae5);
+}
+
+.logo-studio {
+  color: var(--navyblue, #2e2f42);
+}
+
+.nav {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus, .active-link {
+color: var(--ocean, #404bbf);
+}
+
+.contact{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.contact-info {
+  color: var(--slate, #434455);
+  text-decoration: none;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+  color: var(--ocean, #404bbf);
+}
+
+.hero {
+  background-color: var(--navyblue, #2e2f42);
+  margin: 0%;
+  padding: 0%;
+}
+
+.hero-header {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  text-transform:none;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+.order-button {
+  cursor: pointer;
+  color: var(--white, #fff);
+  background: var(--iris, #4d5ae5);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  border: none;
+  border-radius: 4px;
+ }
+
+.order-button:hover,
+.order-button:focus {
+  color: var(--white, #fff);
+  background-color: var(--ocean, #05092f);
+}
+
+about.section {
+  background-color: var(--white, #fff);
+}
+
+.about-list {
+  list-style-type: none;
+}
+
+.about-header {
+color: var(--navyblue);
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.about-content {
+color: var(--slate, #434455);
+}
+
+.what-are-we-doing-section {
+background-color: var(--white, #fff);
+}
+
+.section-title {
+color: var(--navyblue, #232323);
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.what-are-we-doing-list {
+  list-style-type: none;
+}
+
+.team-section {
+  background-color: var(--cloud, #f4f4fd);
+}
+
+.our-team-list {
+list-style-type: none;
+}
+
+.team-member {
+color: var(--navyblue, #2e2f42);
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.role {
+color: var(--slate, #434455);
+text-align: center;
+}
+
+.motto {
+color: var(--cloud, #f4f4fd);
+font-size: 16px;
+font-weight : 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.portfolio {
+  background-color: var(--white, #fff);
+}
+.filter-list {
+  list-style-type: none;
+}
+.filter-button {
+  cursor: pointer;
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: var(--iris, #4d5ae5);
+  background-color: var(--cloud, #f4f4fd);
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+}
+
+.active-filter, .filter-button:hover,
+.filter-button:focus {
+  color: var(--white, #fff);
+  background-color: var(--ocean, #05092f);
+  border-color: var(--ocean, #05092f);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-list {
+  list-style-type: none;
+}
+
+.portfolio-service {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.portfolio-category {
+  color: var(--slate, #434455);
+}
+
+.footer {
+  background-color: var(--navyblue, #2e2f42);
+}
+.footer-logo {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.footer-logo-web {
+color: var(--iris, #4d5ae5);
+}
+
+.footer-logo-studio {
+color: var(--cloud, #f4f4fd);
+}
+
+.motto {
+color: var(--cloud, #f4f4fd);
+}
